@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Home PhotoWorld </title>
+
+	<link rel="stylesheet" type="text/css" href="Header.css"/>
+	<link rel="stylesheet" type="text/css" href="Home.css"/>
+	<script src="js.js"></script>
+
+</head>
+
+
+<body onload="showSlides(1)">
+
+	<header>
+		<img src=" http://www.nileinternational.net/en/wp-content/uploads/2016/02/Miro-Photography.jpg" alt="Photo" />
+		<nav>
+		<ul>
+			<li><a class="active" href="Home.html"> Home </a></li>
+			<li><a href="History.html">	History </a></li>
+			
+			<li class="dropdown">
+			
+				<a href="Lessons.html" class="dropButton">	Lessons </a>
+				<nav class="dropContent">
+					<a href="CameraBasics.html"> Camera Basics </a> 
+					<a href="Lesson1.html"> Lesson 1 - Exposure </a> 
+					<a href="Lesson2.html"> Lesson 2 - Depth of Field </a> 
+					<a href="Lesson3.html"> Lesson 3 - Shutter Effects </a> 
+				</nav>	
+			</li>
+			<li><a href="Chestionar.html"> Formular </a></li>
+			<li><p> "Don't shoot what it looks like. Shoot what it feels like" - David Harvey    </p></li>
+		</ul>
+		</nav>
+	</header>
+	
+
+	
+	<div>
+		<p> <span id="photo">Photography</span><br> is a way of feeling, of touching, of loving. What you have caught on film is captured forever... it remembers little things, long after you have forgotten everything.</p>
+	
+	</div>
+	
+	<br>
+	
+		
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <img src="http://files.brightside.me/files/news/part_11/110055/261255-1000-1457079079-22.png" >
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="http://files.brightside.me/files/news/part_4/40655/11705-1000-14465309362.png">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="http://files.brightside.me/files/news/part_11/110055/261605-1000-1457079079-4.png">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="http://files.brightside.me/files/news/part_11/119555/637755-1000-1458204932-25.png" >
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="http://static.boredpanda.com/blog/wp-content/uploads/2016/03/spring-japan-cherry-blossoms-national-geographics-210.jpg">
+		</div>
+		
+		<div class="mySlides fade">
+		  <img src="http://files.brightside.me/files/news/part_10/107805/218805-900-1456921073-frozen-ice-art-1-1__880.jpg">
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)"> < </a>
+		<a class="next" onclick="plusSlides(1)"> > </a>
+	
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	  <span class="dot" onclick="currentSlide(4)"></span> 
+	  <span class="dot" onclick="currentSlide(5)"></span> 
+	  <span class="dot" onclick="currentSlide(6)"></span> 
+	</div>
+</div>
+
+	
+	
+	<footer>
+		<div id="ceas"> </div>
+		Copyright: <a href="http://brightside.me/"> BrightSide </a>
+	</footer>
+</body>
+</html>

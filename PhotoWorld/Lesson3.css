@@ -1,0 +1,41 @@
+article {
+	width: 85%;
+	display: block;
+	margin-left: 3%;
+	text-indent: 50px;
+	font-size: 18px;
+	font-family:Lucida Calligraphy;
+}
+
+h2 {
+	width: 85%;
+	display: block;
+	margin-left: 3%;
+	
+	font-size:28px;
+	color:#4CAF50;
+	font-family: Lucida Calligraphy;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h5 {
+	width: 85%;
+	display: block;
+	margin-left: 3%;
+	font-size: 22px;
+	font-family: Lucida Calligraphy;
+	font-style: italic;
+	
+}
+
+h4 {
+	font-size: 23px;
+	color: #111;
+}
+
+.exercise {
+	font-weight: bold;
+	color:#4CAF50;
+}
+
